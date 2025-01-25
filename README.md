@@ -1,4 +1,4 @@
-# ShadowHawk
+# UdanKhatola
 This project is being coordinated by the Aeromodelling Club, Indian Institute of Technology Ropar. The aim of this project is to design and build an RC plane from scratch. This documentation might not be up-to-date with the code for some time till the project has been successfully completed.
 
 For this project, we are using the ESP32 Dev board as our flight controller. We implemented I2C communication for obtaining accelerometer data from the MPU6050 Module. This data was used to turn the servos for ailerons and elevators appropriately in order to correct the pitch and roll caused by external factors. The servos also employ a PID controller to regulate these values.  
